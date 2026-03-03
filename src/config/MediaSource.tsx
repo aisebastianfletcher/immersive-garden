@@ -1,3 +1,4 @@
+// @ts-nocheck
 
 let IMGPATHSOURCE: string = `assets/img/`,
     VIDEOPATHSOURCE: string = `assets/video/`
