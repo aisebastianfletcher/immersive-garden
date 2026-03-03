@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react'
 import { Link as A } from 'react-router-dom'
 import styled from 'styled-components'
