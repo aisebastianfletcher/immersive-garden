@@ -27,6 +27,7 @@ const Index = () => {
         switch (action.type) {
             case 'FIRST': {
                 setMove({
+                                        ...move,
                     transform: !move.transform,
                     newTransform: !move.newTransform,
                 });
