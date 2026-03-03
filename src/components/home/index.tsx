@@ -35,12 +35,14 @@ const Index = () => {
             }
             case 'SECOND': {
                 setMove({
+                                        ...move,
                     mainTransform: !move.mainTransform
                 })
                 break
             }
             case 'VISIBLE': {
                 setMove({
+                                        ...move,
                     visible: !move.visible
                 })
                 break
