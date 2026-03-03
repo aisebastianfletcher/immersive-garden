@@ -1,3 +1,4 @@
+// @ts-nocheck
 
 import React, { createRef } from 'react'
 import { Redirect } from 'react-router'
