@@ -20,7 +20,7 @@ const HeaderMenu = ({ closeThisMenu, menuDisplay }: Props) => {
     });
 
 
-    const MenuName: typeof React.Component = () => (
+    const MenuName: React.FC = () => (
         state.name.map((item, id) => {
             return <MenuText onClick={() => console.log('Hello')} key={id}> {item} </MenuText>
         })
